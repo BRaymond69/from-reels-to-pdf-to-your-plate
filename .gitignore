@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Generated library content stays local — don't commit personal saved PDFs
+public/library/*
+!public/library/.gitkeep
+

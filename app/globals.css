@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-korean,
+.font-korean h1,
+.font-korean h2,
+.font-korean h3 {
+  font-family: "Noto Serif KR", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #d9a02a;
+  color: #1c1a17;
+}
+
+.bg-paper-grain {
+  background-color: #f6f1e4;
+  background-image: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.06) 1px, transparent 0);
+  background-size: 5px 5px;
+}
